@@ -8,7 +8,7 @@
 PARTS_PATH := packages/apps/XiaomiParts
 
 # Properties
-TARGET_VENDOR_PROP += $(PARTS_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(PARTS_PATH)/common/defaults_common.prop
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
